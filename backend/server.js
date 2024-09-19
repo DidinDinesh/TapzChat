@@ -12,7 +12,7 @@ import { app, server } from "./socket/socket.js";
 
 
 app.use(cors({
-    origin: "http://localhost:5173",  // Your React app URL
+    origin: "https://tapzchat.onrender.com",  // Your React app URL
     credentials: true  // Allow cookies to be sent
 }));
 

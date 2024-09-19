@@ -10,7 +10,7 @@ export const useAuthContext = () => {
 export const AuthContextProvider = ({children}) => {
 
     const [authUser, setAuthUser] = useState(JSON.parse(localStorage.getItem("tapzChat-user")) || null)
-    const url = "http://localhost:5000"
+    const url = "https://tapzchat.onrender.com"
 
     return  <AuthContext.Provider value={{authUser, setAuthUser, url}}>
                 {children}
