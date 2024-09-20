@@ -31,8 +31,8 @@ const Signup = () => {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center min-w-96 mx-auto">
-        <div className="w-full p-6 rounded-lg shadow-md bg-green-400 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0">
+    <div className="flex flex-col items-center justify-center w-full h-screen mx-auto">
+        <div className="w-1/4 h-autoitems-center justify-center p-6 rounded-lg shadow-md bg-green-400 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0">
           <h1 className="text-3xl font-semibold text-center text-gray-300">
             Sign up
             <span className="text-blue-500 ml-3">
@@ -66,7 +66,7 @@ const Signup = () => {
               <input type="password" placeholder="Enter password" className="w-full input input-bordered h-10 mb-2" value={inputs.confirmPassword} name="confirmPassword" onChange={onchangeHnadler}/>
             </div>
             <GenderCheckbox onCheckboxChange = {handleChekboxChange} selectedGender = {inputs.gender}/>
-            <Link to="/login" className="text-sm hover:underline hover:text-blue-600 mt-2 inline-block">
+            <Link to="/login" className="text-sm hover:underline text-gray-300 hover:text-blue-600 mt-2 inline-block">
               Allready have an account?
             </Link>
             <div>
