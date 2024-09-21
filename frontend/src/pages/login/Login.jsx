@@ -17,7 +17,7 @@ const Login = () => {
 
   return (
     <div className="flex flex-col items-center justify-center w-screen h-screen">
-      <div className=" w-1/4 h-auto p-6 rounded-lg shadow-md bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0">
+      <div className=" w-11/12 sm:w-3/4 md:w-1/2 lg:w-1/3 xl:w-1/4 h-auto p-6 rounded-lg shadow-md bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0">
         <h1 className="text-3xl font-semibold text-center text-gray-300">
           Login
           <span className="text-blue-500 ml-3">
